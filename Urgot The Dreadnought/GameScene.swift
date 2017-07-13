@@ -16,15 +16,29 @@ class GameScene: SKScene {
     var qButton: SKNode! = nil
     var eButton: SKNode! = nil
     
-    var background = SKSpriteNode(imageNamed: "background")
-    
     override func didMove(to view: SKView) {
-        background.position = CGPoint(x: size.width/2, y: size.height/2)
         
-        self.addChild(background)
+        for i in 0 ... 1 {
+            let background = SKSpriteNode(imageNamed: "background")
+            background.zPosition = -30
+            background.anchorPoint = CGPoint.zero
+            background.position = CGPoint(x: (background.size.width * CGFloat(i)) - CGFloat(1 * i), y: 0)
+            addChild(background)
+            
+            let moveLeft = SKAction.moveBy(x: -background.size.width, y: 0, duration: 20)
+            let moveReset = SKAction.moveBy(x: background.size.width, y: 0, duration: 0)
+            let moveLoop = SKAction.sequence([moveLeft, moveReset])
+            let moveForever = SKAction.repeatForever(moveLoop)
+            
+            background.run(moveForever)
+        }
+        
+        
+        
         
         player.position = CGPoint(x: size.width * 0.1, y: (floor.size.height * 0.1) + (player.size.height * 0.5))
         floor.position = CGPoint(x: 0, y: 0 - floor.size.height * 0.4)
+        
         addChild(player)
         
         addChild(floor)

@@ -318,6 +318,7 @@
 				FFDD97C91F16FA17000992A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
