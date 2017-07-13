@@ -8,26 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FFDD97B31F16FA17000992A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD97B21F16FA17000992A9 /* AppDelegate.swift */; };
-		FFDD97B51F16FA17000992A9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FFDD97B41F16FA17000992A9 /* GameScene.sks */; };
-		FFDD97B71F16FA17000992A9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FFDD97B61F16FA17000992A9 /* Actions.sks */; };
 		FFDD97B91F16FA17000992A9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD97B81F16FA17000992A9 /* GameScene.swift */; };
 		FFDD97BB1F16FA17000992A9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD97BA1F16FA17000992A9 /* GameViewController.swift */; };
 		FFDD97BE1F16FA17000992A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDD97BC1F16FA17000992A9 /* Main.storyboard */; };
 		FFDD97C01F16FA17000992A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDD97BF1F16FA17000992A9 /* Assets.xcassets */; };
 		FFDD97C31F16FA17000992A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDD97C11F16FA17000992A9 /* LaunchScreen.storyboard */; };
+		FFDD97CC1F170483000992A9 /* background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FFDD97CB1F170483000992A9 /* background.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FFDD97AF1F16FA17000992A9 /* Urgot The Dreadnought.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Urgot The Dreadnought.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDD97B21F16FA17000992A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FFDD97B41F16FA17000992A9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FFDD97B61F16FA17000992A9 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		FFDD97B81F16FA17000992A9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FFDD97BA1F16FA17000992A9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FFDD97BD1F16FA17000992A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FFDD97BF1F16FA17000992A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFDD97C21F16FA17000992A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFDD97C41F16FA17000992A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFDD97CB1F170483000992A9 /* background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +58,8 @@
 		FFDD97B11F16FA17000992A9 /* Urgot The Dreadnought */ = {
 			isa = PBXGroup;
 			children = (
+				FFDD97CA1F170483000992A9 /* Sounds */,
 				FFDD97B21F16FA17000992A9 /* AppDelegate.swift */,
-				FFDD97B41F16FA17000992A9 /* GameScene.sks */,
-				FFDD97B61F16FA17000992A9 /* Actions.sks */,
 				FFDD97B81F16FA17000992A9 /* GameScene.swift */,
 				FFDD97BA1F16FA17000992A9 /* GameViewController.swift */,
 				FFDD97BC1F16FA17000992A9 /* Main.storyboard */,
@@ -71,6 +68,14 @@
 				FFDD97C41F16FA17000992A9 /* Info.plist */,
 			);
 			path = "Urgot The Dreadnought";
+			sourceTree = "<group>";
+		};
+		FFDD97CA1F170483000992A9 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD97CB1F170483000992A9 /* background.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,11 +138,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFDD97CC1F170483000992A9 /* background.mp3 in Resources */,
 				FFDD97BE1F16FA17000992A9 /* Main.storyboard in Resources */,
-				FFDD97B51F16FA17000992A9 /* GameScene.sks in Resources */,
 				FFDD97C01F16FA17000992A9 /* Assets.xcassets in Resources */,
 				FFDD97C31F16FA17000992A9 /* LaunchScreen.storyboard in Resources */,
-				FFDD97B71F16FA17000992A9 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
