@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFDD97B31F16FA17000992A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD97B21F16FA17000992A9 /* AppDelegate.swift */; };
+		FFDD97B51F16FA17000992A9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FFDD97B41F16FA17000992A9 /* GameScene.sks */; };
+		FFDD97B71F16FA17000992A9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FFDD97B61F16FA17000992A9 /* Actions.sks */; };
+		FFDD97B91F16FA17000992A9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD97B81F16FA17000992A9 /* GameScene.swift */; };
+		FFDD97BB1F16FA17000992A9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDD97BA1F16FA17000992A9 /* GameViewController.swift */; };
+		FFDD97BE1F16FA17000992A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDD97BC1F16FA17000992A9 /* Main.storyboard */; };
+		FFDD97C01F16FA17000992A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDD97BF1F16FA17000992A9 /* Assets.xcassets */; };
+		FFDD97C31F16FA17000992A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDD97C11F16FA17000992A9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFDD97AF1F16FA17000992A9 /* Urgot The Dreadnought.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Urgot The Dreadnought.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDD97B21F16FA17000992A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFDD97B41F16FA17000992A9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FFDD97B61F16FA17000992A9 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FFDD97B81F16FA17000992A9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FFDD97BA1F16FA17000992A9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FFDD97BD1F16FA17000992A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFDD97BF1F16FA17000992A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFDD97C21F16FA17000992A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFDD97C41F16FA17000992A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFDD97AC1F16FA17000992A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFDD97A61F16FA17000992A9 = {
+			isa = PBXGroup;
+			children = (
+				FFDD97B11F16FA17000992A9 /* Urgot The Dreadnought */,
+				FFDD97B01F16FA17000992A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFDD97B01F16FA17000992A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD97AF1F16FA17000992A9 /* Urgot The Dreadnought.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFDD97B11F16FA17000992A9 /* Urgot The Dreadnought */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD97B21F16FA17000992A9 /* AppDelegate.swift */,
+				FFDD97B41F16FA17000992A9 /* GameScene.sks */,
+				FFDD97B61F16FA17000992A9 /* Actions.sks */,
+				FFDD97B81F16FA17000992A9 /* GameScene.swift */,
+				FFDD97BA1F16FA17000992A9 /* GameViewController.swift */,
+				FFDD97BC1F16FA17000992A9 /* Main.storyboard */,
+				FFDD97BF1F16FA17000992A9 /* Assets.xcassets */,
+				FFDD97C11F16FA17000992A9 /* LaunchScreen.storyboard */,
+				FFDD97C41F16FA17000992A9 /* Info.plist */,
+			);
+			path = "Urgot The Dreadnought";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDD97AE1F16FA17000992A9 /* Urgot The Dreadnought */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDD97C71F16FA17000992A9 /* Build configuration list for PBXNativeTarget "Urgot The Dreadnought" */;
+			buildPhases = (
+				FFDD97AB1F16FA17000992A9 /* Sources */,
+				FFDD97AC1F16FA17000992A9 /* Frameworks */,
+				FFDD97AD1F16FA17000992A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Urgot The Dreadnought";
+			productName = "Urgot The Dreadnought";
+			productReference = FFDD97AF1F16FA17000992A9 /* Urgot The Dreadnought.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFDD97A71F16FA17000992A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Avery Vine";
+				TargetAttributes = {
+					FFDD97AE1F16FA17000992A9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2Z33772VE8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFDD97AA1F16FA17000992A9 /* Build configuration list for PBXProject "Urgot The Dreadnought" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFDD97A61F16FA17000992A9;
+			productRefGroup = FFDD97B01F16FA17000992A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDD97AE1F16FA17000992A9 /* Urgot The Dreadnought */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFDD97AD1F16FA17000992A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDD97BE1F16FA17000992A9 /* Main.storyboard in Resources */,
+				FFDD97B51F16FA17000992A9 /* GameScene.sks in Resources */,
+				FFDD97C01F16FA17000992A9 /* Assets.xcassets in Resources */,
+				FFDD97C31F16FA17000992A9 /* LaunchScreen.storyboard in Resources */,
+				FFDD97B71F16FA17000992A9 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFDD97AB1F16FA17000992A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDD97B91F16FA17000992A9 /* GameScene.swift in Sources */,
+				FFDD97BB1F16FA17000992A9 /* GameViewController.swift in Sources */,
+				FFDD97B31F16FA17000992A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFDD97BC1F16FA17000992A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDD97BD1F16FA17000992A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFDD97C11F16FA17000992A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDD97C21F16FA17000992A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFDD97C51F16FA17000992A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFDD97C61F16FA17000992A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFDD97C81F16FA17000992A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Z33772VE8;
+				INFOPLIST_FILE = "Urgot The Dreadnought/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.averyvine.Urgot-The-Dreadnought";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FFDD97C91F16FA17000992A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Z33772VE8;
+				INFOPLIST_FILE = "Urgot The Dreadnought/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.averyvine.Urgot-The-Dreadnought";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFDD97AA1F16FA17000992A9 /* Build configuration list for PBXProject "Urgot The Dreadnought" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDD97C51F16FA17000992A9 /* Debug */,
+				FFDD97C61F16FA17000992A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDD97C71F16FA17000992A9 /* Build configuration list for PBXNativeTarget "Urgot The Dreadnought" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDD97C81F16FA17000992A9 /* Debug */,
+				FFDD97C91F16FA17000992A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFDD97A71F16FA17000992A9 /* Project object */;
+}
